@@ -3,16 +3,16 @@ export default () => {
     let sessionid = `${sessionid}`;
 
     const data_msg_ussdstr = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': "postman-" + new Date().getTime(),
         'network': '1', 
         'type': '1', 
-        'ussd': '*134*20002#',
-        'msg': '*134*20002#',
+        'ussd': '*#',
+        'msg': '*#',
     };
     
     const data_msg_end_session = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '3', 
@@ -21,129 +21,129 @@ export default () => {
     };
     
     const data_msg_1 = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
+        'ussd': '*134**##', 
         'msg': '1'
     };    
     
     const data_msg_2 = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
+        'ussd': '*134**##', 
         'msg': '2'
     };
     
     const data_msg_3 = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
+        'ussd': '*134**##', 
         'msg': '3'
     };
     
     const data_msg_jobref = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': 'REF3226E'
+        'ussd': '*134**##', 
+        'msg': '*#'
     };
     
     const data_msg_TestFirstName = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': 'TestFirstName'
+        'ussd': '*134**##', 
+        'msg': '*#'
     };
 
     const data_msg_TestLastName = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': 'TestLastName'
+        'ussd': '*134**##', 
+        'msg': '*#'
     }; 
     
     const data_msg_msisdn = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
+        'ussd': '*134**##', 
         'msg': '27720000000'
     };
     
     const data_msg_idnumber = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': '8101015086085'
+        'ussd': '*134**##', 
+        'msg': '*#'
     };
     
     const data_msg_institution = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': 'Someplace'
+        'ussd': '*134**##', 
+        'msg': '*#'
     };
     
     const data_msg_completed_highest = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': '1998'
+        'ussd': '*134**##', 
+        'msg': '*#'
     };
     
     const data_msg_highest_qualification = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': 'SomeQuali'
+        'ussd': '*134**##', 
+        'msg': '*#'
     };
     
     const data_msg_other_relevant = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': 'OtherRelevant'
+        'ussd': '*134**##', 
+        'msg': '*#'
     };
     
     const data_msg_current_town = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': 'TownVillage'
+        'ussd': '*134**##', 
+        'msg': '*#'
     };
     
     const data_msg_postcode = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': '6660'
+        'ussd': '*134**##', 
+        'msg': '*#'
     };
 
     const data_msg_empno = {
@@ -151,26 +151,26 @@ export default () => {
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': '6061480'
+        'ussd': '*134**##', 
+        'msg': '*#'
     };
 
     const data_msg_dob = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': '19810101'
+        'ussd': '*134**##', 
+        'msg': '*#'
     };
 
     const data_msg_someplace = {
-        'msisdn': '27720000000',
+        'msisdn': '27646559471',
         'sessionid': `${sessionid}`, 
         'network': '1', 
         'type': '2', 
-        'ussd': '*134*20002#', 
-        'msg': 'someplace'
+        'ussd': '*134**##', 
+        'msg': '*#'
     };
     
     return {

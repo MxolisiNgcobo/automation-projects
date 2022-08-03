@@ -1,11 +1,11 @@
-export const ussdSmartUser = Role('https://ussd.qa.wyzetalk.co.za/ussd/login', async t => {
+export const apiUser = Role('https://any-api.com/ebay_com', async t => {
    await ussdSmartLogin(t);
 });
 
-export const USSD_SMART_MEMBER = '27720000000' 
-export const USSD_SMART_STRING = '*134*20002#' 
+export const USSD_SMART_MEMBER = '09876543' 
+export const USSD_SMART_STRING = '**123**' 
 
 export const data_ussdSmartLogin = {
-    'password': "5585", 
-    'username': "wyzetalk"
+    'password': "QATesting321", 
+    'username': "qatest321"
 };

@@ -42,7 +42,7 @@ const { data_msg_ussdstr,
         .then((res) => {
             expect(res).to.not.be.empty;
             expect(res.statusCode).to.eq(200);
-            expect(res.body.msg).to.contain("Welcome to the Anglo American Job Opportunities");
+            expect(res.body.msg).to.contain("Welcome to the ebay");
         });
     });
 
@@ -54,7 +54,7 @@ const { data_msg_ussdstr,
         .then((res) => {
             expect(res).to.not.be.empty;
             expect(res.statusCode).to.eq(200);
-            expect(res.body.msg).to.contain("Job Applications");
+            expect(res.body.msg).to.contain("bookings");
         });
     });
 
@@ -66,7 +66,7 @@ const { data_msg_ussdstr,
         .then((res) => {
             expect(res).to.not.be.empty;
             expect(res.statusCode).to.eq(200);
-            expect(res.body.msg).to.contain("Please enter Job Reference Number");
+            expect(res.body.msg).to.contain("Please enter  Reference Number");
         }); 
     });
 
@@ -78,7 +78,7 @@ const { data_msg_ussdstr,
         .then((res) => {
             expect(res).to.not.be.empty;
             expect(res.statusCode).to.eq(200);
-            expect(res.body.msg).to.contain("Application for REF3226E");
+            expect(res.body.msg).to.contain("Application ref");
         }); 
     });
 
@@ -90,7 +90,7 @@ const { data_msg_ussdstr,
         .then((res) => {
             expect(res).to.not.be.empty;
             expect(res.statusCode).to.eq(200);
-            expect(res.body.msg).to.contain("Are you an Anglo American Employee");
+            expect(res.body.msg).to.contain("Are you an ebay Employee");
         }); 
     });
 
