@@ -1,0 +1,27 @@
+import { mobileAppUser } from "../../../helpers/user-roles";
+
+fixture(`Mobile Login`)
+
+test.meta({ testRailCaseId:  'C0' })
+    ('Login - success | Mobile Test | C0', async t => {
+
+      await t
+      .useRole(mobileAppUser)
+
+      await t
+      .expect(homePage.exists).ok({ timeout: 10000 })
+      .click(homePage)
+    });
+
+
+    /*test.meta({ testRailCaseId:  'C1' })
+    ('Login - invalid user | Mobile Test | C1', async t => {
+
+      await t
+      .useRole(mobileAppUser)
+
+      await t
+      expect($('//*[@text="Invalid"]').exists).ok({ timeout: 10000 })
+      //.click(mobileAppUser) 
+
+    }); */
